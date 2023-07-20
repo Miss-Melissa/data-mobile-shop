@@ -15,7 +15,13 @@
 }
 
 @media screen and (max-width: 500px) {
-    .footer .a {
-        flex-direction: column;
-    }
+
+.footer {
+    position:static;
+}
+
+.footer .a {
+    flex-direction: column;
+}
+ 
 }
